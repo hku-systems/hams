@@ -1,0 +1,9 @@
+5
+2
+c1,test,echo:container1,false,0
+c2,test,echo:container2,false,0
+c3,test,echo:container3,true,0
+c4,test,echo:container4,false,0
+c5,test,echo:container5,false,0
+dist[1->2;2->3,4]
+reduce[3,4->5]

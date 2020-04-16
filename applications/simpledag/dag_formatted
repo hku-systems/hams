@@ -1,0 +1,11 @@
+5
+2
+c1,test,zsxhku/simpledag:container1,false,64
+c2,test,zsxhku/simpledag:container2,true,64
+c3,test,zsxhku/simpledag:container3,false,64
+c4,test,zsxhku/simpledag:container4,false,64
+c5,test,zsxhku/simpledag:container5,false,64
+dist[1->2;2->3,4]
+reduce[3,4->5]
+
+

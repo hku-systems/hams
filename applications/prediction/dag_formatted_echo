@@ -1,0 +1,16 @@
+12
+2
+c0,test,echo:container0,false,0
+c1,test,echo:container1,false,0
+c2,test,echo:container2,false,0
+c3,test,echo:container3,false,0
+c4,test,echo:container4,false,0
+c5,test,echo:container5,true,0
+c6,test,echo:container6,false,0
+c7,test,echo:container7,false,0
+c8,test,echo:container8,false,0
+c9,test,echo:container9,false,0
+c10,test,echo:container10,false,0
+c11,test,echo:container11,false,0
+dist[1->2,3;3->4;4->5;2->7;7->6,8,9,10,11]
+reduce[5,6,8,9,10,11->12] 

@@ -1,0 +1,34 @@
+dag
+
+5
+2
+c1,test,zsxhku/simpledag:container1,false,64
+c2,test,zsxhku/simpledag:container2,true,64
+c3,test,zsxhku/simpledag:container3,false,64
+c4,test,zsxhku/simpledag:container4,false,64
+c5,test,zsxhku/simpledag:container5,false,64
+dist[1->2 2->3,4]
+reduce[3,4->5]
+
+
+runtime_dag
+
+simpledag,test
+5
+2
+frontend-name,frontend-id,frontend-ip
+c1,test,zsxhku/simpledag:container1,false,64, 3 contianer info name/id/ip, 3 proxy info
+c2,test,zsxhku/simpledag:container2,true,64, ... primary 6 infos , ... backup 6 infos 
+c3,test,zsxhku/simpledag:container3,false,64
+c4,test,zsxhku/simpledag:container4,false,64
+c5,test,zsxhku/simpledag:container5,false,64
+dist[1->2 2->3,4]
+reduce[3,4->5]
+
+
+
+
+dist[1->2 3->5 4->5]
+l-dist[udf-func][2->TRUE:3,FALSE:4]
+
+

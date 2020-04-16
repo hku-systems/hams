@@ -1,0 +1,11 @@
+5
+4
+c1,test,ai-proxy:echo-model,false,64
+c2,test,ai-proxy:echo-model,false,64
+c3,test,ai-proxy:echo-model,false,64
+c4,test,ai-proxy:echo-model,false,128
+c5,test,ai-proxy:echo-model,false,256
+dist[1->2]
+dist[2->3]
+dist[3->4]
+dist[4->5]

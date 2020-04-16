@@ -1,0 +1,16 @@
+12
+2
+c0,1,zsxhku/stock:container0,false,0
+c1,1,zsxhku/stock:container1,false,0
+c2,1,zsxhku/stock:container2,false,0
+c3,1,zsxhku/stock:container3,false,0
+c4,1,zsxhku/stock:container4,false,0
+c5,1,zsxhku/stock:container5,true,0
+c6,1,zsxhku/stock:container6,false,0
+c7,1,zsxhku/stock:container7,false,0
+c8,1,zsxhku/stock:container8,false,0
+c9,1,zsxhku/stock:container9,false,0
+c10,1,zsxhku/stock:container10,false,0
+c11,1,zsxhku/stock:container11,false,0
+dist[1->2,3;3->4;4->5;2->7;7->6,8,9,10,11]
+reduce[5,6,8,9,10,11->12] 

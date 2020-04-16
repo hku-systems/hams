@@ -1,0 +1,12 @@
+FROM mxschen/grpc-glog:latest 
+
+COPY ./proxy /ai-serving
+COPY ./protobufs /protobufs
+WORKDIR /ai-serving
+RUN cmake -DCMAKE_BUILD_TYPE=Release . && make -j
+
+EXPOSE 22223
+
+ENV GLOG_logtostderr=1
+
+CMD ["/ai-serving/bin/proxy"]
