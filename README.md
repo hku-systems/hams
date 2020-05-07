@@ -1,6 +1,10 @@
 ## Brief
 HAMS is a research project. HAMS means high availability for ML service graphs.
 
+You may would like to refer to our paper: 
+
+HAMS: High Availability for Distributed Machine Learning Service Graphs (will appear at DSN '20)
+
 The project follows Apache 2.0. 
 
 The code is still under code cleaning, document preparation. Current HAMS only support key functionalities that deploy a directed graph of ML services and provide fault tolerance to the service. 
